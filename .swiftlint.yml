@@ -1,0 +1,24 @@
+line length:
+- 200 #warning
+- 300 #error
+disabled_rules:
+  - unused_optional_binding
+  - colon
+  - comma
+  - control_statement
+  - trailing_whitespace
+  - force_try
+  - force_unwrapping
+  - force_cast
+opt_in_rules:
+  - empty_count
+  - missing_docs
+excluded:
+  - Carthage
+  - Pods
+  - Source/ExcludedFolder
+  - Source/ExcludedFile.swift
+file_length:
+  warning: 500
+  error: 600
+reporter: xcode
